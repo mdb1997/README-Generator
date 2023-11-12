@@ -57,11 +57,13 @@ const questions = [
     name: "test",
     message: "List instructions on how users can test this project.",
 },
-
+];
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+}
 
 // TODO: Create a function to initialize app
 function init() {}
