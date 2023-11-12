@@ -1,14 +1,21 @@
 {
-    "name": "static-site",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-      "inquirer": "8.2.4"
-    }
-  }
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "## Description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maria Boyd",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "url: git+https://github.com/mdb1997/README-Generator.git"
+  },
+  "keywords": [
+    "readme"
+  ]
+}
